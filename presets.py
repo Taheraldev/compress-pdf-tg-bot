@@ -1,4 +1,6 @@
 class Presets(object):
+    WELCOME_TXT = "<b>Hello.. {}</b>\n<i>I can compress the size of pdf docs. Send me a pdf document to see " \
+                  "the magic !</i> "
     INVALID_FORMAT = "<b>خطا:</b>\n<i> يمكنني ضغط مستندات pdf فقط.  من فضلك تأكد من أنك أعطيتني أ" \
                      "وثيقة صالحة.  حاول مرة أخرى...</i>"
     WAIT_MESSAGE = "⌛️ <b>المعالجة</b> ⌛"
